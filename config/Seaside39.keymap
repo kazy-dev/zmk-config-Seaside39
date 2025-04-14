@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E           &kp R         &kp T                                     &kp Y       &kp U     &kp I          &kp O             &kp P
-&kp A             &kp S      &kp D           &kp F         &kp G                                     &kp H       &mkp MB1  &mkp MB2       &kp L             &kp ENTER
-&mt LEFT_SHIFT Z  &kp X      &kp C           &kp V         &kp B                                     &kp N       &kp M     &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
-&kp LEFT_ALT      &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_WIN  &lt 1 LANG1  &lt 4 ESCAPE      &kp SPACE  &lt 2 BSPC                                             &lt 3 ESCAPE
+&kp Q             &kp W      &kp E           &kp R         &kp T                                     &kp Y       &kp U  &kp I          &kp O             &kp P
+&kp A             &kp S      &kp D           &kp F         &kp G                                     &kp H       &kp J  &kp K          &kp L             &kp ENTER
+&mt LEFT_SHIFT Z  &kp X      &kp C           &kp V         &kp B                                     &kp N       &kp M  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
+&kp LEFT_ALT      &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_WIN  &lt 1 LANG1  &lt 4 ESCAPE      &kp SPACE  &lt 2 BSPC                                          &lt 3 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -56,10 +56,10 @@
 
         NUM_MOUSE {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3      &kp NUMBER_4         &kp NUMBER_5                      &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp KP_NUMBER_9  &kp NUMBER_0
-&kp LCTRL       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &none                             &kp LS(LG(EQUAL))  &mkp LCLK     &kp LC(UP)    &mkp RCLK        &kp SEMICOLON
-&kp LEFT_SHIFT  &none               &none             &none                &none                             &kp LG(MINUS)      &mkp MB4      &none         &mkp MB5         &kp GRAVE
-&trans          &trans              &trans            &trans               &trans        &trans      &trans  &trans                                                          &trans
+&kp NUMBER_1    &kp NUMBER_2        &kp NUMBER_3      &kp NUMBER_4         &kp NUMBER_5                      &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LCTRL       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &none                             &kp LS(LG(EQUAL))  &mkp MB1      &kp LC(UP)    &mkp MB2      &kp SEMICOLON
+&kp LEFT_SHIFT  &none               &none             &none                &none                             &kp LG(MINUS)      &mkp MB4      &none         &mkp MB5      &kp GRAVE
+&trans          &trans              &trans            &trans               &trans        &trans      &trans  &trans                                                       &trans
             >;
         };
 
