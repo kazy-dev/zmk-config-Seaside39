@@ -94,10 +94,10 @@
 
         mouse {
             bindings = <
-&kp TAB         &none   &none             &none   &none                       &none   &none     &none  &none     &none
-&kp LCTRL       &none   &kp LC(UP_ARROW)  &none   &none                       &none   &mkp MB1  &mo 6  &mkp MB2  &none
-&kp LEFT_SHIFT  &none   &none             &none   &none                       &none   &mkp MB4  &none  &mkp MB5  &none
-&trans          &trans  &trans            &trans  &trans  &trans      &trans  &trans                             &trans
+&kp TAB         &none               &none             &none                &none                       &none   &none     &none  &none     &none
+&kp LCTRL       &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &none                       &none   &mkp MB1  &mo 6  &mkp MB2  &none
+&kp LEFT_SHIFT  &none               &none             &none                &none                       &none   &mkp MB4  &none  &mkp MB5  &none
+&trans          &trans              &trans            &trans               &trans  &trans      &trans  &trans                             &trans
             >;
         };
 
